@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Guess Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="middlediv" style="margin: 0 5em;">
+        <h1 id="h1title">Hello, this is the random number guessing game</h1>
+        <p id="p">Choose a number between <input type="text" class="input" id="minNum"> and <input id="maxNum" class="input" type="text"></p>
+        <button id="btnGo" class="btn">Click to guess</button>
+        <div style="text-align: center; margin-top: 25px;">
+            <label for="">Your guess: </label> <input type="text" id="guess" style="border-radius: 5px;">
+            <br>
+            <label for="" id="messbox"></label>
+        </div>
+        <div style="text-align: center; font-size: 1.5em; margin-top: 20px;">
+            <label for="">Roll number: </label><label for="" id="rollnumber">xxx</label>
+        </div>
+        <div style="display: flex; justify-content:space-around; padding: 0 50px">
+            <div><label for="" id="try">Try:</label></div>
+            <div><label for="" id="highscore">High score:</label></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
