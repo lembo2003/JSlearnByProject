@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Generate your password</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Password generator!</h1><br>
+        <label for="length">Password length:</label>
+        <input type="number" name="" id="length" min="1">
+        <br>
+        <input type="checkbox" name="" id="lowerCase">
+        <label for="lowerCase">Include lowercase letters</label>
+        <br>
+        <input type="checkbox" name="" id="upperCase">
+        <label for="upperCase">Include uppercase letters</label>
+        <br>
+        <input type="checkbox" name="" id="number">
+        <label for="number">Include numbers</label>
+        <br>
+        <input type="checkbox" name="" id="symbols">
+        <label for="symbols">Include symbols</label>
+        <br>
+        <button id="btn" onclick="lembo()">Generate</button><br>
+        <label for="" id="gen">Your password:</label>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
