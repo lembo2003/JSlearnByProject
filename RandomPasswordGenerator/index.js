@@ -31,7 +31,7 @@ function lembo(){
     const uppercase = document.getElementById("upperCase");
     const number = document.getElementById("number");
     const symbol = document.getElementById("symbols");
-    console.log(symbol.checked);
+    
     let result = document.getElementById("gen");
     result.textContent = gen(passwordLength, lowercase, uppercase, number, symbol);
 }
